@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:text="@string/address_lable_not_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:id="@+id/noAddressLbl"
+            />
+
+        <TextView
+            android:text="@string/placeholder_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addresslbl"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_below="@id/noAddressLbl"
+            android:layout_marginBottom="3dp"/>
+
+        <TextView
+            android:text="@string/placeholder_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datetimelbl"
+            android:layout_below="@id/addresslbl"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

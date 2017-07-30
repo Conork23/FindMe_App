@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">Find Me</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_in">Submit</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="complete_all_fields">Please fill in all fields</string>
+    <string name="signup_failed">Failed to Create Account</string>
+    <string name="activity_lbl_login">Login</string>
+    <string name="MAP_API_KEY" translatable="false">[Google Maps API key]</string>
+    <string name="date_time_format" translatable="false">EEE, d MMMM yyyy HH:mm:ss</string>
+    <string name="placeholder_address">123 Fake St., Fake Town, Dublin, Ireland</string>
+    <string name="placeholder_datetime">Mon, 1 Jan 2017 00:00</string>
+    <string name="address_lable_not_found">Address Lable Not Found:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="placeholder_location_interval">How Often to Record Location?</string>
+    <string name="settings_activity_lbl">Settings</string>
+    <string name="dialogTxt">Please configure how often to save location and SMS retrieval.</string>
+    <string name="dialogPositiveBtn">Settings</string>
+    <string name="location_permission_denied">Location permission is required to use Find Me.</string>
+    <string name="turn_on_location">Location Services are required. Please Enable.</string>
+    <string name="text_format" formatted="false">The last know location of your device is: https://www.google.com/maps/place/%1$f,%2$f/%3$f,%4$f,17z/</string>
+    <string name="placeholder_location_keyword">Keyword for SMS Location Retrieval:</string>
+    <string name="keyword_not_set">Not Set</string>
+    <string name="btn_change_keyword">Change</string>
+    <string name="hint_new_keyword">Set new keyword…</string>
+    <string name="change_keyword_dialog_title">Change Keyword</string>
+    <string name="change_keyword_dialog_positive_btn">Save</string>
+    <string name="change_keyword_dialog_negative_btn">Cancel</string>
+    <string name="change_keyword_dialog_message">Please ensure keyword is unique and not a word used in everyday conversation.</string>
+    <string name="enable_sms_location_retrieval">Enable SMS Location Retrieval</string>
+    <string name="please_register">Please Register to use Find Me</string>
+    <string name="register">Register</string>
+    <string name="signin">Sign In</string>
+    <string name="success">Success!</string>
+    <string name="frag_alt_signin">Already have an account?</string>
+    <string name="frag_alt_register">Create an account.</string>
+    <string name="signin_failed">Email and/or Password is Incorrect</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="password_not_match">Confirm password did not match</string>
+    <string name="default_keyword">Not Set</string>
+    <string name="intro_welcome">Welcome</string>
+    <string name="intro_slide1">To get started we need to set up a few things.</string>
+    <string name="intro_permissions">Permissions</string>
+    <string name="Intro_slide2">Find Me requires a few permissions to function correctly.</string>
+    <string name="intro_location">Location Services</string>
+    <string name="intro_slide3">Location Services are required for this application to run.</string>
+    <string name="placeholder">Placeholder</string>
+</resources>

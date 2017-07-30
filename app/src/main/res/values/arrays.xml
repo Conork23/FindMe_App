@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="interval_array">
+        <item>Never</item>
+        <item>Every 15 mins</item>
+        <item>Every 30 mins</item>
+        <item>Every hour</item>
+        <item>Every 12 hours</item>
+        <item>Once a day</item>
+    </string-array>
+
+</resources>
